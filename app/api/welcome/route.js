@@ -152,7 +152,7 @@ const emails=[{
     service: 'gmail',
     auth: {
       user: 'albinantonydominic@gmail.com',
-      pass: process.env.NEXT_PUBLIC_PASSWORD
+      pass:'cahy nunj qmie udqf'
     }
   });
 export async function POST(req,res){
