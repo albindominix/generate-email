@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -29,14 +30,13 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        <h1>Albin Antony</h1>
+        <Link href="/AlbinAntonyResum.pdf" >
+          <button>Download PDF</button> 
+      </Link>
+      <form method="get" action="/AlbinAntonyResum.pdf">
+   <button type="submit">Download!</button>
+</form>
       </div>
 
       <div className={styles.grid}>
